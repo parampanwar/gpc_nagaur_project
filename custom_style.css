@@ -1,0 +1,111 @@
+<style>
+
+/***************************************Scrollbar Design Start******************************************************/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #556D9C;
+  border-radius: 2em;
+}
+
+::-moz-scrollbar-thumb {
+  background: #556D9C;
+  border-radius: 2em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: crimson;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: crimson;
+}
+/****************************************Scrollbar Design End******************************************************/
+span {
+        color: orange;
+     }
+.top-header {
+        padding: 10px;
+      }
+.notice-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+.our-facility-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+.team_sec {
+  border-bottom: 1px solid #000;
+  padding: 20px 0px 10px;
+  margin-top: 40px;
+}
+
+
+.team_list {
+  padding: 0px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team_list li {
+  list-style: none;
+  width: 20%;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.team_list li span img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center top 10px;
+}
+
+.team_list li h5 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 26px 0 0 -5px;
+  font-weight: bold;
+}
+
+.team_list li p {
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: -18px;
+}
+      .notice {
+        background-color: orange;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      .footer{
+        padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+
+      }
+
+</style>
